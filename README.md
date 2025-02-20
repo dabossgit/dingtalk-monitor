@@ -91,6 +91,13 @@ src/
 └── scheduler/   # 定时任务模块
 ```
 
-## License
+## 开源许可
 
-MIT
+本项目采用 [MIT 开源许可证](https://opensource.org/licenses/MIT)，这意味着你可以：
+
+- ✅ 免费使用
+- ✅ 自由修改
+- ✅ 自由分发
+- ✅ 商业使用
+
+只需要保留原始版权和许可证声明即可。
