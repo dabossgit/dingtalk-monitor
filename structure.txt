@@ -1,0 +1,58 @@
+.
+├── src/
+│   ├── examiner/           # 消息监听模块
+│   │   └── index.ts
+│   ├── storage/            # 本地存储模块
+│   │   └── index.ts  
+│   ├── processor/          # 消息处理模块
+│   │   ├── index.ts
+│   │   ├── rules/          # 消息处理规则
+│   │   │   └── index.ts
+│   │   └── types/          # 处理后的消息类型
+│   │       └── index.ts
+│   ├── bot/               # 钉钉机器人模块
+│   │   └── index.ts
+│   ├── collector/         # 消息获取模块
+│   │   └── index.ts
+│   ├── scheduler/         # 定时任务模块
+│   │   └── index.ts
+│   ├── reporter/          # 结果输出模块
+│   │   └── index.ts
+│   └── types/             # 基础类型定义
+│       └── index.ts
+├── test/                # 新增：测试目录
+│   ├── examiner.test.ts
+│   ├── processor.test.ts
+│   └── bot.test.ts
+├── examples/            # 新增：示例目录
+│   ├── basic.ts        # 基础使用示例
+│   └── advanced.ts     # 高级使用示例
+├── scripts/            # 新增：脚本目录
+│   ├── build.sh       # 构建脚本
+│   └── release.sh     # 发布脚本
+├── docs/              # 新增：文档目录
+│   ├── guide/
+│   │   ├── setup.md   # 安装配置指南
+│   │   └── usage.md   # 使用说明
+│   └── api/
+│       └── index.md   # API文档
+├── .github/           # 新增：GitHub配置
+│   ├── workflows/     # GitHub Actions
+│   │   └── ci.yml    # CI配置
+│   └── ISSUE_TEMPLATE/
+├── .vscode/          # 新增：VSCode配置
+│   └── settings.json
+├── dist/            # 编译输出目录
+├── node_modules/    # 依赖目录
+├── .env.example     # 环境变量模板
+├── .gitignore      # Git忽略文件
+├── .eslintrc.js    # ESLint配置
+├── .prettierrc     # Prettier配置
+├── jest.config.js  # Jest测试配置
+├── tsconfig.json   # TypeScript配置
+├── package.json    # 项目配置
+├── CHANGELOG.md    # 变更日志
+├── CONTRIBUTING.md # 贡献指南
+├── LICENSE         # MIT许可证
+├── README.md       # 项目说明
+└── structure.txt   # 目录结构说明 
